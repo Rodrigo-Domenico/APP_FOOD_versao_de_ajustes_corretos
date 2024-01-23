@@ -86,6 +86,13 @@ button:hover {
     background-color: var(--cor1);
 }
 
+#lanche_menu{
+    width: 300px;
+    position: fixed;
+    top: 0px;
+    left: 60%;
+}
+
 /*_______MENU_FINAL______*/
 
 /*_____MAIN_INICIO_______*/
@@ -173,6 +180,26 @@ button:hover {
 
 /*___________FOOTER_FIM_____________*/
 
+@media screen and (max-width:1300px) {
+    #lanche_menu{
+        width: 200px;
+        position: fixed;
+        top: 5%;
+        left: 60%;
+    }
+    
+}
+
+@media screen and (max-width:1100px) {
+    #lanche_menu{
+        width: 150px;
+        position: fixed;
+        top: 4%;
+        left: 60%;
+    }
+    
+}
+
 
 @media screen and (max-width:700px) {
     .btn_tamanho {
@@ -208,6 +235,7 @@ button:hover {
         font-size: 2vw;
         margin: 0px;
     }
+  
 }
 
 @media screen and (max-width:500px) {
